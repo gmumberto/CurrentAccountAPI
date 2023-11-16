@@ -1,14 +1,14 @@
 USE [CurrentAccountAPI]
 GO
 
-/****** Object:  Table [dbo].[Costumer_TB]    Script Date: 16/11/2023 00:27:40 ******/
+/****** Object:  Table [dbo].[Customer_TB]    Script Date: 16/11/2023 04:40:16 ******/
 SET ANSI_NULLS ON
 GO
 
 SET QUOTED_IDENTIFIER ON
 GO
 
-CREATE TABLE [dbo].[Custumer_TB](
+CREATE TABLE [dbo].[Customer_TB](
 	[costumerID] [int] IDENTITY(1,1) NOT NULL,
 	[costumerName] [char](20) NOT NULL,
 	[costumerSurename] [char](20) NOT NULL,
